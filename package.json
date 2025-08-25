@@ -1,0 +1,17 @@
+{
+  "name": "apis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "express": "^5.1.0",
+    "server": "^1.0.42"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
