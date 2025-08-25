@@ -7,6 +7,10 @@ const KEY_STRING = "12345678901234567890123456789012"; // 32-byte key
 
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.json({ status: "success", message: "API is running!" });
+});
+
 // ✅ Encrypt for URL
 export function encryptURLParam(data) {
   if (data) {
